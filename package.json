@@ -1,0 +1,43 @@
+{
+  "name": "react-github-languages",
+  "version": "1.0.0",
+  "description": "A React component to display a repository's used languages (just like Github does).",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willdavsmith/react-github-languages.git"
+  },
+  "keywords": [
+    "react",
+    "github",
+    "languages"
+  ],
+  "author": "@willdavsmith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/willdavsmith/react-github-languages/issues"
+  },
+  "homepage": "https://github.com/willdavsmith/react-github-languages#readme",
+  "peerDependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@rollup/plugin-json": "^4.1.0",
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.2",
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0",
+    "rollup": "^2.41.4",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "typescript": "^4.2.3"
+  }
+}
